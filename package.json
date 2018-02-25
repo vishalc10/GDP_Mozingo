@@ -1,0 +1,25 @@
+{
+  "name": "gdp_mozingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalc10/GDP_Mozingo.git"
+  },
+  "keywords": [
+    "mozingo",
+    "lake",
+    "gdp",
+    "northwest"
+  ],
+  "author": "Vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalc10/GDP_Mozingo/issues"
+  },
+  "homepage": "https://github.com/vishalc10/GDP_Mozingo#readme"
+}
