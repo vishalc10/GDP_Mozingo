@@ -1,25 +1,45 @@
+<!DOCTYPE html>
 <html>
+​
 
 <head>
     <title>Mozingo Lake</title>
 </head>
+​
 
 <body>
+    <header>
+        <div align="center">
+            <img src="../assets/images/logo.png" alt="logo">
+        </div>
+        <hr color="orange">
+        <div align="center">
+            <img src="../assets/images/lake.jpg" alt="lake">
+        </div>
+    </header>
     <form method="POST" action="/user/login">
-        <div class="container">
-            <label for="username">
-                <b>Username</b>
-            </label>
-            <input type="text" placeholder="Enter Username" name="username" required>
+        <div align="center">
+            <ul style="list-style-type:none">
+                <li>
+                    <label for="username">
+                        <b>Username</b>
+                    </label>
 
-            <label for="password">
-                <b>Password</b>
-            </label>
-            <input type="password" placeholder="Enter Password" name="password" required>
-
-            <button type="submit">Login</button>
+                    <input type="text" placeholder="Enter Username" name="username" required>
+                </li>
+                <li>
+                    <label for="password">
+                        <b>Password</b>
+                    </label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                </li>
+                <li>
+                    <button type="submit">Login</button>
+                </li>
+            </ul>
         </div>
     </form>
 </body>
+​
 
 </html>
