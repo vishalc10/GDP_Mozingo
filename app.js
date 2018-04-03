@@ -22,3 +22,11 @@ app.use('/user', require("./backend/user/route/user.route"))
 
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
+
+function loginTest(jsonIn) {
+    data = JSON.parse(jsonIn);
+    return {
+        username: data.username,
+        password: data.password
+    };
+}
