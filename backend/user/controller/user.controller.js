@@ -23,3 +23,9 @@ var goToPasswordConfirmation = function(req,res){
 }
 
 module.exports.goToPasswordConfirmation = goToPasswordConfirmation
+
+var goToChangePassword = function(req, res){
+    res.render("changePassword")
+}
+
+module.exports.goToChangePassword = goToChangePassword

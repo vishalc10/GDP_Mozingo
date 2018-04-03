@@ -6,5 +6,6 @@ router.post('/login', userController.login)
 router.get('/test', userController.login)
 router.get('/forgotPassword', userController.goToForgotPassword)
 router.get('/forgotConfirmation', userController.goToPasswordConfirmation)
+router.get('/changePassword', userController.goToChangePassword)
 
 module.exports = router
