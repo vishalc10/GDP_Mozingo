@@ -18,7 +18,6 @@ app.use(express.static(path.join(__dirname, './frontend/assets')));
 
 app.use('/', require("./backend/dashboard/route/dashboard.route"))
 app.use('/user', require("./backend/user/route/user.route"))
-app.use('/forgotPassword', require("./backend/forgotPassword/route/forgotPassword.route"))
 
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
