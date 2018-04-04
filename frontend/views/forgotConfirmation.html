@@ -6,21 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="/js/custom.js"></script>
 </head>
 
 <body>
     <header>
         <div align="center">
-            <img class="img-fluid" src="logo.png" alt="logo">
+            <img class="img-fluid" src="/images/logo.png"  width="218" height="124" alt="logo">
         </div>
         <hr class="hr">
         <div align="center">
-            <img class="img-fluid" src="lake.jpg" alt="lake">
+            <img class="img-fluid" src="/images/lake.jpg" alt="lake">
         </div>
     </header>
     <div class="container">
@@ -37,12 +37,12 @@
                         </li>
                         <li>
                             <p class="emailColor">
-                                ababer@maryville.org
+                               <%= name %>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <a href="#">Did not get the reset link?</a>
+                                <a href="/user/forgotPassword">Did not get the reset link?</a>
                             </p>
                         </li>
                     </ul>

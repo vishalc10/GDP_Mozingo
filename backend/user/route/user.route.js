@@ -7,5 +7,6 @@ router.get('/test', userController.login)
 router.get('/forgotPassword', userController.goToForgotPassword)
 router.get('/forgotConfirmation', userController.goToPasswordConfirmation)
 router.get('/changePassword', userController.goToChangePassword)
+router.get('/passwordChangeSuccess', userController.goToPasswordChangeSuccess)
 
 module.exports = router
