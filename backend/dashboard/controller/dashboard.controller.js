@@ -9,3 +9,15 @@ var goToLogin = function(req, res){
 }
 
 module.exports.goToLogin = goToLogin
+
+var goToAdminPanel = function(req, res){
+    res.render("adminPanel")
+}
+
+module.exports.goToAdminPanel = goToAdminPanel
+
+var goToAddUser = function(req, res){
+    res.render("addUser")
+}
+
+module.exports.goToAddUser = goToAddUser
